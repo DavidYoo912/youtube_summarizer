@@ -1,4 +1,4 @@
-# YouTube AI Summarizer
+# AI YouTube Video Summarizer
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![last commit](https://img.shields.io/github/last-commit/davidyoo912/youtube_summarizer?color=orange)
 ![pull requests](https://img.shields.io/github/issues-pr/davidyoo912/youtube_summarizer)
@@ -54,7 +54,7 @@ Simple application to generate transcript summaries from YouTube Videos
 
 ## Usage
 
-After creating / activating the environment, paste and export your OpenAI API key
+After either activating conda environment or installing using requirements.txt, paste and export your OpenAI API key
 
 ```bash
    export OPENAI_API_KEY="your-api-key-here"
