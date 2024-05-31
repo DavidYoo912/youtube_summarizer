@@ -1,4 +1,8 @@
 # YouTube AI Summarizer
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![last commit](https://img.shields.io/github/last-commit/davidyoo912/youtube_summarizer?color=orange)
+![pull requests](https://img.shields.io/github/issues-pr/davidyoo912/youtube_summarizer)
+![forks](https://img.shields.io/github/forks/DavidYoo912/youtube_summarizer?style=social)
 
 Simple application to generate transcript summaries from YouTube Videos 
 
@@ -28,7 +32,7 @@ Simple application to generate transcript summaries from YouTube Videos
 
 4. **Activate the environment:**
    ```bash
-   conda activate <youtube_summarizer>
+   conda activate youtube_summarizer
    ```
 
 ### Using pip
