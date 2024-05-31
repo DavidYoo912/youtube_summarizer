@@ -54,7 +54,13 @@ Simple application to generate transcript summaries from YouTube Videos
 
 ## Usage
 
-After creating / activating the environment, run the following command to start the app 
+After creating / activating the environment, paste and export your OpenAI API key
+
+```bash
+   export OPENAI_API_KEY="your-api-key-here"
+   ```
+
+then, run the following command to start the app 
 
 ```bash
    streamlit run app.py
