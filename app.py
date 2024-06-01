@@ -7,7 +7,7 @@ def main():
     #st.title("YouTube Transcript Summarizer")
        
     # Define the title text and image URL
-    title_text = "YouTube AI Summarizer"
+    title_text = "YouTube AI Video Summarizer"
     image_url = "https://i.pinimg.com/originals/3a/36/20/3a36206f35352b4230d5fc9f17fcea92.png"  # Replace this URL with your image URL
 
     # Use HTML and CSS to style the title and image
@@ -32,14 +32,17 @@ def main():
         return transcript
 
     # Function to summarize text
-    def summarize_transcript(transcript):
-        summary = summarize_text(transcript)
+    def summarize_transcript(transcript, lang):
+        summary = summarize_text(transcript, lang=lang)
         return summary
 
     # Interface components
     st.subheader("Enter YouTube URL:")
     st.write("Paste a YouTube link to summarize its content (must have a transcript available)")
     url = st.text_input("URL")
+
+    # Language selection
+    language = st.radio("Select language to output:", ('English', 'Spanish', 'Korean'))
 
     if st.button("Summarize"):
         if url:
@@ -57,7 +60,7 @@ def main():
             
             # Display Summary
             transcript = get_transcript_from_url(url)
-            summary = summarize_transcript(transcript)
+            summary = summarize_transcript(transcript, language)
             st.subheader("Video Summary:")
             st.write(summary)
         else:
