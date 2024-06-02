@@ -29,6 +29,7 @@ def summarize_text(text, lang='en'):
             }
         ],
         model="gpt-3.5-turbo",
+        #model="gpt-4-turbo", # better performance, slower inference
         )
     
     summary_text = response.to_dict()['choices'][0]['message']['content']

@@ -3,9 +3,7 @@ from scrape_youtube import extract_video_id, get_transcript, extract_metadata, d
 from summarize_text import summarize_text
 import os
 
-def main():
-    #st.title("YouTube Transcript Summarizer")
-       
+def main():       
     # Define the title text and image URL
     title_text = "YouTube AI Video Summarizer"
     image_url = "https://i.pinimg.com/originals/3a/36/20/3a36206f35352b4230d5fc9f17fcea92.png"  
