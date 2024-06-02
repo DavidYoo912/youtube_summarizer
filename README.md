@@ -68,4 +68,4 @@ then, run the following command to start the app
 
 Paste a YouTube link to summarize its content (must have a transcript available)
 
-![Example Usage](usage_example.png)
+![Example Usage](usage_screenshot.png)
