@@ -8,7 +8,7 @@ def main():
        
     # Define the title text and image URL
     title_text = "YouTube AI Video Summarizer"
-    image_url = "https://i.pinimg.com/originals/3a/36/20/3a36206f35352b4230d5fc9f17fcea92.png"  # Replace this URL with your image URL
+    image_url = "https://i.pinimg.com/originals/3a/36/20/3a36206f35352b4230d5fc9f17fcea92.png"  
 
     # Use HTML and CSS to style the title and image
     html_code = f"""
