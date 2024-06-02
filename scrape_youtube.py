@@ -42,7 +42,7 @@ def download_thumbnail(video_id):
         handler.write(img_data)     
         
 def get_transcript(video_id):
-    transcript_raw = YouTubeTranscriptApi.get_transcript(video_id, languages=['en', 'ko'])
+    transcript_raw = YouTubeTranscriptApi.get_transcript(video_id, languages=['en', 'es', 'ko'])
     transcript_str_lst = [i['text'] for i in transcript_raw]
     transcript_full = ' '.join(transcript_str_lst)
     return transcript_full
