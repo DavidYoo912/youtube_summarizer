@@ -13,28 +13,6 @@ Simple application to generate transcript summaries from YouTube Videos
 
 ## Installation
 
-### Using Conda
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/DavidYoo912/youtube_summarizer.git
-   ```
-
-2. **Navigate to the project directory:**
-   ```bash
-   cd youtube_summarizer
-   ```
-
-3. **Set up the Conda environment:**
-   ```bash
-   conda env create -f environment.yml
-   ```
-
-4. **Activate the environment:**
-   ```bash
-   conda activate youtube_summarizer
-   ```
-
 ### Using pip
 
 1. **Clone the repository:**
@@ -54,7 +32,7 @@ Simple application to generate transcript summaries from YouTube Videos
 
 ## Usage
 
-After either activating conda environment or installing using requirements.txt, paste and export your OpenAI API key
+After installing requirements.txt, paste and export your OpenAI API key
 
 ```bash
    export OPENAI_API_KEY="your-api-key-here"
